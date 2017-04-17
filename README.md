@@ -9,7 +9,19 @@
 _{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
 
 ## Specs/Tests
-*
+* Behaviour: Counts from 1 to a given number
+    **input**: 2
+    **output**: an array of [1,2]
+* Behaviour: Check if number is divisible by 3, if so write ping
+    **input**: 6
+    **output**: [1,2,ping,4,5,ping]
+* Behaviour: Check if number is divisible by 5, if so write pong
+    **input**: 6
+    **output**: [1,2,ping,4,pong,ping]
+    * Behaviour: Check if number is divisible by 15, if so write ping-pong
+    **input**: 15
+    **output**: [1,2,ping,4,pong,ping,7,8,ping,10,11,ping,13,14,ping-pong]
+
 
 ## Setup/Installation Requirements
 
